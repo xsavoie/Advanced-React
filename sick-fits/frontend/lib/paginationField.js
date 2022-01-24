@@ -27,9 +27,7 @@ export default function paginationField() {
       }
 
       if (items.length) {
-        console.log(
-          `There are ${items.length} items in the cache, sending to apollo`
-        );
+        // console.log(`There are ${items.length} items in the cache, sending to apollo`);
         return items;
       }
 
