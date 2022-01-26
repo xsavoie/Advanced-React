@@ -8,7 +8,6 @@ import { useUser } from './User';
 export default function Nav() {
   const user = useUser();
   const { openCart } = useCart();
-
   return (
     <NavStyles>
       <Link href="/products">Products</Link>
