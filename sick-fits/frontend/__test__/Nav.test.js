@@ -61,7 +61,6 @@ describe('<Nav/>', () => {
     await screen.findByText('Account');
     expect(container).toMatchSnapshot();
     expect(container).toHaveTextContent('Sign Out');
-    debug();
   });
 
   it('Renders a full nav when signed in', async () => {
@@ -74,6 +73,5 @@ describe('<Nav/>', () => {
     );
     await screen.findByText('Account');
     expect(screen.getByText('3')).toBeInTheDocument();
-    debug();
   });
 });
